@@ -7,8 +7,8 @@
   <title>صدقة جارية</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo&display=swap">
   <style>
-    .container{
-        padding: 30px;
+    .viewer-container {
+      direction: ltr;
     }
     body {
       background-image: url('background.png');
@@ -36,11 +36,11 @@
 
     article {
       margin-bottom: 30px; 
-      transition: background-color 0.3s ease; /* Add transition effect for smooth hover */
+      transition: background-color 0.3s ease; 
     }
 
     article:hover {
-      background-color: #333; /* Change the background color on hover */
+      background-color: #333; 
     }
 
     iframe {
@@ -66,11 +66,11 @@
 
     @media screen and (max-width: 600px) {
       body {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px; 
       }
 
       iframe {
-        height: 400px; /* Adjust height for smaller screens */
+        height: 400px; 
       }
     }
   </style>
@@ -138,8 +138,8 @@
 
 
     <hr>
-    <div class="container">
-        <embed src="quran.pdf" type="application/pdf" width="100%" height="800px">
+    <div>
+        <iframe src="https://quran.com/ar/1" width="40%" height="800px" frameborder="0"></iframe>
     </div>
 
 <hr>
